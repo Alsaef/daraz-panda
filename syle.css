@@ -1,0 +1,19 @@
+.panda-bg-warning{
+    background-color: bisque;
+}
+.cataguris img{
+    width: 100px;
+}
+.panda-bg-light{
+    background-color: orchid;
+}
+.btn-panda{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    padding: 9px 25px;
+    cursor: pointer;
+    border: none;
+}
+.panda-bg-info{
+    background-color: #ffc1d9;
+
+}
