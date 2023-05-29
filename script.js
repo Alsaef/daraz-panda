@@ -1,7 +1,7 @@
 document.getElementById("subscribe-input").addEventListener("keyup",function (event) {
    const value= event.target.value
     const btn = document.getElementById("subscription");
-    if (value=="panda") {
+    if (value=="Panda") {
         btn.removeAttribute("disabled")
     }
     else{
