@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Panda Commerce</title>
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- custom css -->
   <link rel="stylesheet" href="syle.css">
    <!-- custom css -->
@@ -225,8 +227,9 @@
     </section>
     <!-- bag -->
     <!-- subscription -->
-    <section style="height: 250px;" class="container rounded-3 d-flex flex-column align-items-center justify-content-center panda-bg-info" id="subscribe">
-        <div > 
+    <section  class="container rounded-3 d-flex flex-column align-items-center justify-content-center panda-bg-info p-5" id="subscribe">
+      <div class="d-flex  flex-lg-row flex-md-column flex-sm-column flex-column">
+      <div> 
           <h2>LET'S STAY IN TOUCH</h2>
         <p>Get updates on sales, specials and more</p>
         <form class="d-flex align-items-center justify-content-center flex-column">
@@ -236,6 +239,21 @@
           <button type="submit" class="btn btn-panda text-white" id="subscription" disabled>Submit</button>
         </form>
         </div>
+        <div class="px-5 mt-lg-0 mt-md-3 mt-sm-3 mt-3">
+          <h3>Review Our Site</h3>
+           <div>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <button class="btn btn-panda text-white" onclick="clickReview()">Review</button>
+            <p id="text-review"></p>
+           </div>
+        </div>
+      </div>
     </section>
     <!-- subscription -->
   </main>
